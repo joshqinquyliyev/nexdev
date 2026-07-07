@@ -1,0 +1,35 @@
+/* --- RESPONSIVE DIZAYN --- */
+
+/* Planshetlar uchun (992px gacha) */
+@media (max-width: 992px) {
+    .portfolio-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 ta ustun */
+        gap: 20px;
+    }
+}
+
+/* Mobil qurilmalar uchun (768px gacha) */
+@media (max-width: 768px) {
+    .portfolio-grid {
+        grid-template-columns: 1fr; /* 1 ta ustun */
+    }
+
+    .section-header h2 {
+        font-size: 24px;
+    }
+
+    .nav-menu {
+        display: none; /* Menyuni yashirish (JS orqali ochish uchun) */
+        flex-direction: column;
+        width: 100%;
+        background: var(--bg-color);
+        position: absolute;
+        top: 60px;
+        left: 0;
+        padding: 20px;
+    }
+
+    .nav-menu.active {
+        display: flex; /* Hamburger bosilganda ochiladi */
+    }
+}
