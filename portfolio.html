@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="uz" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexDev — Loyihalarimiz Portfoliosi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-dot"></div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Nex<span>Dev</span></a>
+            <div class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Bosh sahifa</a>
+                <a href="services.html" class="nav-link">Xizmatlar</a>
+                <a href="portfolio.html" class="nav-link active">Portfolio</a>
+                <a href="contact.html" class="nav-link">Aloqa</a>
+            </div>
+            <div class="nav-actions">
+                <button id="themeToggle" class="theme-btn"><i class="fas fa-sun"></i></button>
+                <div class="hamburger" id="hamburger"><span class="bar"></span><span class="bar"></span><span class="bar"></span></div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="page-container">
+            <div class="section-header">
+                <h2>Bajarilgan Yirik <span>Loyihalarimiz</span></h2>
+                <p>Biz mijozlarimizning ishonchini oqlab, murakkab g'oyalarni muvaffaqiyatli ishga tushirganmiz. Quyida eng sara ishlarimiz jamlangan.</p>
+            </div>
+
+            <div class="portfolio-grid">
+                <!-- Loyiha 1 -->
+                <div class="card portfolio-card">
+                    <div class="portfolio-img" style="background: linear-gradient(135deg, #8ec5fc 0%, #e0c3fc 100%);">
+                        <div class="portfolio-tags"><span class="tag">Next.js</span><span class="tag">E-Commerce</span></div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Zamin SuperMarket Tizimi</h3>
+                        <p>Respublika miqyosidagi yirik savdo tarmog'i uchun yaratilgan platforma. Tizim bir vaqtning o'zida 50,000 dan ortiq foydalanuvchi xaridlarini uzilishlarsiz qayta ishlay oladi. Kengaytirilgan qidiruv filtrlari va real vaqtda kuryer kuzatuvi mavjud.</p>
+                        <strong style="font-size: 13px; color: var(--accent);">Natija: Savdo hajmi 40% ga oshdi.</strong>
+                    </div>
+                </div>
+
+                <!-- Loyiha 2 -->
+                <div class="card portfolio-card">
+                    <div class="portfolio-img" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                        <div class="portfolio-tags"><span class="tag">React</span><span class="tag">FinTech CRM</span></div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Apex Invest Analitika Paneli</h3>
+                        <p>Investitsiya kompaniyalari va brokerlar uchun mo'ljallangan yopiq analitik tizim. Unda valyuta va aksiyalar oqimi grafik ko'rinishida (WebSockets yordamida) mikrosaniyalarda yangilanib turadi. Avtomatlashtirilgan hisobot chiqarish moduli bor.</p>
+                        <strong style="font-size: 13px; color: var(--accent);">Natija: Ichki operatsiyalar vaqti 2 barobar qisqardi.</strong>
+                    </div>
+                </div>
+
+                <!-- Loyiha 3 -->
+                <div class="card portfolio-card">
+                    <div class="portfolio-img" style="background: linear-gradient(135deg, #5eeffc 0%, #5665f5 100%);">
+                        <div class="portfolio-tags"><span class="tag">Flutter</span><span class="tag">Mobile App</span></div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>EduSoft Ta'lim Platformasi</h3>
+                        <p>Onlayn va oflayn maktablar uchun yagona mobil ilova. Unda jonli dars translyatsiyalari, chat tizimi, uy vazifalarini sun'iy intellekt yordamida dastlabki tekshirish va ota-onalarga push-bildirishnomalar yuborish funksiyalari mavjud.</p>
+                        <strong style="font-size: 13px; color: var(--accent);">Natija: 100,000 dan ortiq yuklab olishlar soni.</strong>
+                    </div>
+                </div>
+
+                <!-- Loyiha 4 -->
+                <div class="card portfolio-card">
+                    <div class="portfolio-img" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+                        <div class="portfolio-tags"><span class="tag">Python</span><span class="tag">AI ChatBot</span></div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>SmartLogistics Aqlli Tizimi</h3>
+                        <p>Katta logistika va yuk tashish korxonasi uchun sun'iy intellekt yordamida marshrutlarni optimallashtiruvchi loyiha. Tizim ob-havo, yo'llardagi tirbandliklar va yoqilg'i sarfini hisoblab, haydovchilarga eng maqbul yo'nalishni chizib beradi.</p>
+                        <strong style="font-size: 13px; color: var(--accent);">Natija: Yoqilg'i sarfi 18% ga tejaldi.</strong>
+                    </div>
+                </div>
+
+                <!-- Loyiha 5 -->
+                <div class="card portfolio-card">
+                    <div class="portfolio-img" style="background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);">
+                        <div class="portfolio-tags"><span class="tag">Node.js</span><span class="tag">B2B Portal</span></div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>MedTex Sanoat Ta'minoti</h3>
+                        <p>Tibbiy jihozlar yetkazib beruvchi yirik distribyutorlar uchun B2B yopiq savdo portali. Shifoxonalar va dorixonalar ushbu platforma orqali ulgurji shartnomalarni onlayn rasmiylashtirishadi va elektron hisob-faktura (EHF) almashishadi.</p>
+                        <strong style="font-size: 13px; color: var(--accent);">Natija: Hujjat almashish jarayoni 90% tezlashdi.</strong>
+                    </div>
+                </div>
+
+                <!-- Loyiha 6 -->
+                <div class="card portfolio-card">
+                    <div class="portfolio-img" style="background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);">
+                        <div class="portfolio-tags"><span class="tag">UI/UX</span><span class="tag">Figma Concept</span></div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>EcoTour Sayohat Brendi</h3>
+                        <p>Ekologik turizm va ziyorat turizmiga ixtisoslashgan xalqaro agentlik uchun to'liq UI/UX brending va veb-sayt dizayni. Minimalizm va Neomorphism uslublari uyg'unligida, foydalanuvchini charchatmaydigan qilib ishlangan.</p>
+                        <strong style="font-size: 13px; color: var(--accent);">Natija: Saytga tashrif buyuruvchilar sodiqligi oshdi.</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 NexDev Raqamli Texnologiyalar Markazi. Imtihon uchun barcha huquqlar to'liq ta'minlandi.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
